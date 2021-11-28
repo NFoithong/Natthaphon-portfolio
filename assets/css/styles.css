@@ -32,6 +32,9 @@ header {
     justify-content: space-between;
     text-decoration: none;
     padding: 15px 150px;
+    z-index: 9999;
+    position: sticky;
+    top: 0;
 }
 
 header a {
@@ -75,6 +78,8 @@ section {
 .hero {
     height: 550px;
     background-color: #000;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-cta {
@@ -143,8 +148,34 @@ button {
     text-align: center;
 }
 
+#about-me {
+    background-color: white;
+    border-bottom: 1px solid #000;
+}
+
+
+/* .about-me-scetion {
+    position: relative;
+} */
+
+.about-me {
+    margin: -170px 0 0 200px;
+    font-size: 250px;
+    font-weight: lighter;
+    color: red;
+    position: relative;
+}
+
 
 /* My work */
+
+.work {
+    margin: -170px 0 0 -550px;
+    font-size: 250px;
+    font-weight: lighter;
+    position: relative;
+    z-index: -2;
+}
 
 .cards {
     width: 100%;
