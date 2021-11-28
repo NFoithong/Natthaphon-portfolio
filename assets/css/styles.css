@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Montserrat:wght@100;400;900&family=Open+Sans:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open sans', 'Montserrat', sans-serif;
+}
+
+p {
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/* header */
+
+header {
+    background-color: #c4c4c4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 15px 150px;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: flex;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+header nav ul li a {
+    margin: 0 20px;
+    font-size: 1.3vw;
+}
+
+.header-logo {
+    font-family: 'Allison';
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+section {
+    padding: 60px 250px;
+}
+
+
+/* hero */
+
+.hero {
+    height: 550px;
+    background-color: #000;
+}
+
+.hero-cta {
+    color: #c4c4c4;
+    position: relative;
+    margin: 100px auto;
+    margin-left: -100px;
+}
+
+.hero-title h1 {
+    font-size: 70px;
+    line-height: 1.15;
+}
+
+button {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #c4c4c4;
+    border-radius: 20px;
+    transition-duration: .2s;
+    /* -webkit-transition-duration: .2s;
+    -moz-transition-duration: .2s; */
+    background-color: #c4c4c4;
+    padding: 4px 30px;
+    font-weight: lighter;
+    width: 150px;
+    margin: 15px auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cta ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.my-resume button {
+    background-color: #000;
+    color: #c4c4c4;
+    margin-left: 15px;
+}
+
+
+/* .my-resume a{
+    background-color: #000;
+    color: #c4c4c4;
+    text-decoration: none;
+} */
+
+
+/* About */
+
+.title {
+    margin: 0 auto 25px auto;
+    text-align: center;
+}
+
+
+/* My work */
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card {
+    margin: 0 auto 20px auto;
+    flex: 2;
+    border: 2px solid white;
+}
+
+.project-img {
+    width: 100%;
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.project-title {
+    z-index: 9999;
+    font-size: 25px;
+    padding: 150px 0 0 20px;
+    color: #c4c4c4;
+}
+
+.sub-title {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.see-project {
+    padding: 5px;
+}
+
+.see-project a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Contact section */
+
+#contact-me {
+    background-color: #000;
+    color: #c4c4c4;
+    font-weight: lighter;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info>* {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #c4c4c4;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+/* create a new css rule for focus state */
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 60px 250px;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.social-icon a {
+    padding: 0 10px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
