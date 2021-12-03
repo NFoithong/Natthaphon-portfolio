@@ -10,7 +10,9 @@ body {
 }
 
 p {
-    font-weight: lighter;
+    font-weight: normal;
+    font-size: 0.75vw;
+    line-height: 1.5;
 }
 
 h2 {
@@ -45,7 +47,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     text-decoration: none;
-    padding: 15px 150px;
+    padding: 15px 250px;
     z-index: 9999;
     position: sticky;
     top: 0;
@@ -72,7 +74,7 @@ header nav ul {
 
 header nav ul li a {
     margin: 0 20px;
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .header-logo {
@@ -84,7 +86,7 @@ header nav ul li a {
 }
 
 section {
-    padding: 60px 250px;
+    padding: 60px 600px;
 }
 
 
@@ -105,7 +107,7 @@ section {
 }
 
 .hero-title h1 {
-    font-size: 70px;
+    font-size: 3vw;
     line-height: 1.15;
 }
 
@@ -158,10 +160,11 @@ button {
 
 /* About */
 
-.title {
+
+/* .title {
     margin: 0 auto 25px auto;
     text-align: center;
-}
+} */
 
 #about-me {
     background-color: white;
@@ -174,11 +177,12 @@ button {
 } */
 
 .about-me {
-    margin: -170px 0 0 200px;
-    font-size: 250px;
+    margin: -170px 0 0 1000px;
+    font-size: 10vw;
     font-weight: lighter;
     color: red;
-    position: relative;
+    /* position: relative; */
+    padding-bottom: 50px;
 }
 
 
@@ -186,10 +190,17 @@ button {
 
 .work {
     margin: -170px 0 0 -550px;
-    font-size: 250px;
+    font-size: 10vw;
     font-weight: lighter;
     position: relative;
     z-index: -2;
+    padding-bottom: 50px;
+}
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cards {
@@ -197,22 +208,22 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 .card {
-    margin: 0 auto 20px auto;
-    flex: 2;
-    border: 2px solid white;
+    margin: 0 20px 20px 20px;
+    /* flex: 3; */
+    flex: 0 45%;
+    border: 1px solid black;
 }
 
 .project-img {
-    width: 100%;
-    /* background-color: #000; */
+    /* width: 100%;
     padding: 0;
-    margin: 0;
+    margin: 0; */
     height: 300px;
-    background-size: cover;
+    /* background-size: cover; */
     border: none;
     object-fit: contain;
 }
@@ -228,7 +239,7 @@ button {
 }
 
 .project-title {
-    z-index: 9999;
+    z-index: 888;
     font-size: 25px;
     /* padding: 150px 0 0 20px; */
     color: #c4c4c4;
@@ -238,7 +249,7 @@ button {
 
 .sub-title {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .see-project {
@@ -253,6 +264,11 @@ button {
 
 /* Contact section */
 
+.headline {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 #contact-me {
     background-color: #000;
     color: #c4c4c4;
@@ -262,7 +278,7 @@ button {
 .contact-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .contact-info>* {
@@ -305,19 +321,18 @@ button {
     outline: none;
 }
 
+
+/* footer section */
+
 footer {
     background-color: white;
     text-align: center;
     padding: 60px 250px;
 }
 
-footer h2 {
-    margin-bottom: 20px;
-}
-
 .social-icon {
     display: inline-block;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 .social-icon a {
