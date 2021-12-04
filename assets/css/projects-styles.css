@@ -1,0 +1,75 @@
+/* My work */
+
+.header-work h2 {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+
+.header-work ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    font-size: 1.25vw;
+    margin-bottom: 120px;
+}
+
+.header-work ul li {
+    padding: 0 25px;
+}
+
+.header-work ul li a {
+    text-decoration: none;
+}
+
+.header-work ul li a:hover {
+    color: rgb(0, 62, 115);
+    font-weight: bolder;
+    background-color: rgb(255, 233, 0);
+    padding: 8px 40px;
+    border-radius: 100px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/*  create four equal columns that sits next to each other */
+
+.column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 40px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width:980px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
