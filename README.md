@@ -13,6 +13,7 @@ Create portfolio to show my skill as a developer by using HTML & CSS. In my port
 - Following wireframe to code on VS code
 - Priniciple User Interface for font, color, hirachy and more!
 - Test all links should working and meet Accessibility
+- Create animation such as link, mouse-over and screen media query
 
 
 ## License

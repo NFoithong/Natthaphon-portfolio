@@ -33,31 +33,37 @@
 
     <!-- hero/jumbotron -->
     <section class="hero">
-        <div class="hero-cta">
-            <div>
+        <div class="hero-container">
+            <div class="hero-cta">
                 <div>
-                    <h4>I'm Natthaphon Foithong</h4>
+                    <div>
+                        <h4>I'm Natthaphon Foithong</h4>
+                    </div>
+                    <div class="hero-title">
+                        <h1>Graphic Designer</h1>
+                        <h1>UX Designer</h1>
+                        <h1>Fullstack Developer</h1>
+                    </div>
                 </div>
-                <div class="hero-title">
-                    <h1>Graphic Designer</h1>
-                    <h1>UX Designer</h1>
-                    <h1>Fullstack Developer</h1>
-                </div>
-            </div>
 
-            <div class="cta">
-                <ul>
-                    <li>
-                        <a href="#contact-me">
-                            <button>Let's Chat!</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./assets/resume/Natthaphon's resume.pdf" target="_blank" class="my-resume">
-                            <button>Resume</button>
-                        </a>
-                    </li>
-                </ul>
+                <div class="cta">
+                    <ul>
+                        <li>
+                            <a href="#contact-me">
+                                <button>Let's Chat!</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./assets/resume/Natthaphon's resume.pdf" target="_blank" class="my-resume">
+                                <button>Resume</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="hero-profile-image">
+                <img src="./assets/image/hero-profile.png">
             </div>
         </div>
     </section>
@@ -78,8 +84,6 @@
         </div>
     </section>
 
-    <!-- <hr> -->
-
     <!-- "My work" section -->
     <section id="my-work">
         <div>
@@ -90,7 +94,7 @@
                 <!-- Graphic design -->
                 <div class="card">
                     <div class="project-img">
-                        <img src="./assets/image/Magazine-advertising.jpg" alt="Bowie magazine advertising layout design" />
+                        <div class="graphic-image tablet-media"></div>
                         <div class="project-title">
                             <h3>Graphic Design</h3>
                         </div>
@@ -110,7 +114,9 @@
                 <!-- UX design -->
                 <div class="card">
                     <div class="project-img">
-                        <img src="./assets/image/Nutrition mobile application.jpg" alt="Nutrition mobile application" />
+                        <div class="ux-image tablet-media"></div>
+                        <!-- <img src="./assets/image/Nutrition mobile application.jpg" alt="Nutrition mobile application" onmouseover="this.src='./assets/image/ux-icon.png'" onmouseout="this.src='./assets/image/Nutrition mobile application.jpg'" /> -->
+                        <!-- <img class="uxdesignicon" src="/assets/image/ux-icon.png" alt="ux deisgn"> -->
                         <div class="project-title">
                             <h3>UX Design</h3>
                         </div>
@@ -134,7 +140,8 @@
                 <!-- Photography -->
                 <div class="card">
                     <div class="project-img">
-                        <img src="./assets/image/wat-arun.JPG" alt="wat arun bangkok Thailand" />
+                        <div class="photo-image tablet-media"></div>
+                        <!-- <img src="./assets/image/wat-arun.JPG" alt="wat arun bangkok Thailand" /> -->
                         <div class="project-title">
                             <h3>Photography</h3>
                         </div>
@@ -147,13 +154,15 @@
                         <button class="see-project">
                         <a href="#photography.html">See Projects!</a>
                     </button>
+
                     </div>
                 </div>
 
                 <!-- Developer -->
                 <div class="card">
                     <div class="project-img">
-                        <img src="./assets/image/run-buddy website.png" alt="run-buddy website" />
+                        <div class="develop-image tablet-media"></div>
+                        <!-- <img src="./assets/image/run-buddy website.png" alt="run-buddy website" /> -->
                         <div class="project-title">
                             <h3>Developer</h3>
                         </div>
@@ -210,9 +219,10 @@
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="What can I help you!"></textarea>
 
-                    <a href="mailto:n.foithong1983@gmail.com">
-                        <button type="submit">Submit!</button>
-                    </a>
+                    <!-- <a href="mailto:n.foithong1983@gmail.com">
+                    </a> -->
+                    <button type="submit">Submit!</button>
+
 
                 </form>
 
