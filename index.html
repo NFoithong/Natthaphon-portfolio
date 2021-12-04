@@ -10,9 +10,12 @@
 
 <body>
     <header>
-        <h1 class="header-logo">
-            <a href="#">Natthaphon Foithong</a>
-        </h1>
+        <div class="avatar">
+            <img src="./assets/image/Natthaphon-profile-picture.png" alt="Natthaphon profile picture">
+            <h1 class="header-logo">
+                <a href="#">Natthaphon Foithong</a>
+            </h1>
+        </div>
         <nav>
             <ul>
                 <li>
@@ -30,31 +33,37 @@
 
     <!-- hero/jumbotron -->
     <section class="hero">
-        <div class="hero-cta">
-            <div>
+        <div class="hero-container">
+            <div class="hero-cta">
                 <div>
-                    <h4>I'm Natthaphon Foithong</h4>
+                    <div>
+                        <h4>I'm Natthaphon Foithong</h4>
+                    </div>
+                    <div class="hero-title">
+                        <h1>Graphic Designer</h1>
+                        <h1>UX Designer</h1>
+                        <h1>Fullstack Developer</h1>
+                    </div>
                 </div>
-                <div class="hero-title">
-                    <h1>Graphic Designer</h1>
-                    <h1>UX Designer</h1>
-                    <h1>Fullstack Developer</h1>
-                </div>
-            </div>
 
-            <div class="cta">
-                <ul>
-                    <li>
-                        <a href="#contact-me">
-                            <button>Let's Chat!</button>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="./assets/resume/Natthaphon's resume.pdf" target="_blank" class="my-resume">
-                            <button>Resume</button>
-                        </a>
-                    </li>
-                </ul>
+                <div class="cta">
+                    <ul>
+                        <li>
+                            <a href="#contact-me">
+                                <button>Let's Chat!</button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./assets/resume/Natthaphon's resume.pdf" target="_blank" class="my-resume">
+                                <button>Resume</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="hero-profile-image">
+                <img src="./assets/image/hero-profile.png">
             </div>
         </div>
     </section>
@@ -62,98 +71,115 @@
     <!-- "About me" section -->
     <section id="about-me">
         <div>
-            <h2 class="title">ABOUT ME</h2>
+            <h2 class="title about-me">ABOUT</h2>
         </div>
         <div>
             <p>
                 I am a Graphic Designer, UX designer and Photographer. I am called “O” by my family, and “NATT” by those in USA. I was born and raised in Thailand. I enjoy using my skills to contribute and inspire others with beautiful designs. The only way to create
                 great art is with love and passion. In my free time, I love spending time with my wife and friends. I love blues music and play soccer once a week.
                 <br />
-                <br /> I have a passion in coding in 2021 and I decide to joined the GW coding bootcamp for my developer journey. I hope that my skillsets can make and help people better life.
+                <br /> In this century, the technology comes and goes fast and I consider to up-level my skill to become a DEVELOPER. In 2021, I have a passion in coding and I decide to joined the GW coding bootcamp for my developer journey. I hope that
+                my skillsets can make and help people better life.
             </p>
         </div>
     </section>
 
-    <hr>
-
     <!-- "My work" section -->
     <section id="my-work">
-
-        <h2 class="title">MY WORK</h2>
-
-        <div class="cards">
-            <!-- Graphic design -->
-            <div class="card">
-                <div class="project-img">
-                    <h3 class="project-title">Graphic Design</h3>
-                    <img src="" alt="" />
-                </div>
-                <div class="box">
-                    <h4 class="sub-title">Skill:</h4>
-                    <p>
-                        Adobe Creative Cloud, Illustrator, Photoshop, InDesign, Lightroom, Premiere Pro, After Effect
-                    </p>
-                    <button class="see-project">
-                        <a href="#graphicdesign.html">See Projects!</a>
-                    </button>
-                </div>
-            </div>
-
-            <!-- UX design -->
-            <div class="card">
-                <div class="project-img">
-                    <h3 class="project-title">UX Design</h3>
-                    <img src="" alt="" />
-                </div>
-                <div class="box">
-                    <h4 class="sub-title">Skill:</h4>
-                    <p>
-                        Adobe XD, Figma, User Research, UI/Interaction Design, Empathy Maps, Journey, Mapping, Information Architecture, Affinity Diagram, Wireframing, Prototyping, Usability Testing, Responsive Design, Visual Design
-                    </p>
-                    <button class="see-project">
-                        <a href="#uxdesign.html">See Projects!</a>
-                    </button>
-                </div>
-            </div>
+        <div>
+            <h2 class="title work">WORK</h2>
         </div>
+        <div class="work-cards">
+            <div class="cards">
+                <!-- Graphic design -->
+                <div class="card">
+                    <div class="project-img">
+                        <div class="graphic-image tablet-media"></div>
+                        <div class="project-title">
+                            <h3>Graphic Design</h3>
+                        </div>
 
-
-        <div class="cards">
-
-            <!-- Photography -->
-            <div class="card">
-                <div class="project-img">
-                    <h3 class="project-title">Photography</h3>
-                    <img src="" alt="" />
-                </div>
-                <div class="box">
-                    <h4 class="sub-title">Skill:</h4>
-                    <p>
-                        DSLR Canon, Nikon, Videography, Photography, Lightroom, Photoshop
-                    </p>
-                    <button class="see-project">
-                        <a href="#photography.html">See Projects!</a>
+                    </div>
+                    <div class="box">
+                        <h4 class="sub-title">Skill:</h4>
+                        <p>
+                            Adobe Creative Cloud, Illustrator, Photoshop, InDesign, Lightroom, Premiere Pro, After Effect
+                        </p>
+                        <button class="see-project">
+                        <a href="graphic-design-projects.html" target="_blank">See Projects!</a>
                     </button>
+                    </div>
+                </div>
+
+                <!-- UX design -->
+                <div class="card">
+                    <div class="project-img">
+                        <div class="ux-image tablet-media"></div>
+                        <!-- <img src="./assets/image/Nutrition mobile application.jpg" alt="Nutrition mobile application" onmouseover="this.src='./assets/image/ux-icon.png'" onmouseout="this.src='./assets/image/Nutrition mobile application.jpg'" /> -->
+                        <!-- <img class="uxdesignicon" src="/assets/image/ux-icon.png" alt="ux deisgn"> -->
+                        <div class="project-title">
+                            <h3>UX Design</h3>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <h4 class="sub-title">Skill:</h4>
+                        <p>
+                            Adobe XD, Figma, User Research, UI/Interaction Design, Empathy Maps, Journey, Mapping, Information Architecture, Affinity Diagram, Wireframing, Prototyping, Usability Testing, Responsive Design, Visual Design
+                        </p>
+                        <button class="see-project">
+                        <a href="#uxdesign-projects.html">See Projects!</a>
+                    </button>
+                    </div>
                 </div>
             </div>
 
-            <!-- Developer -->
-            <div class="card">
-                <div class="project-img">
-                    <h3 class="project-title">Developer</h3>
-                    <img src="" alt="" />
-                </div>
-                <div class="box">
-                    <h4 class="sub-title">Skill:</h4>
-                    <p>
-                        HTML, CSS, Git, Github, VS code, atom
-                    </p>
-                    <button class="see-project">
-                        <a href="#developer.html">See Projects!</a>
-                    </button>
-                </div>
-            </div>
 
+            <div class="cards">
+
+                <!-- Photography -->
+                <div class="card">
+                    <div class="project-img">
+                        <div class="photo-image tablet-media"></div>
+                        <!-- <img src="./assets/image/wat-arun.JPG" alt="wat arun bangkok Thailand" /> -->
+                        <div class="project-title">
+                            <h3>Photography</h3>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h4 class="sub-title">Skill:</h4>
+                        <p>
+                            DSLR Canon, Nikon, Videography, Photography, Lightroom, Photoshop, Portrait, Landscape, Wedding, Cartography, Events
+                        </p>
+                        <button class="see-project">
+                        <a href="#photography-projects.html">See Projects!</a>
+                    </button>
+
+                    </div>
+                </div>
+
+                <!-- Developer -->
+                <div class="card">
+                    <div class="project-img">
+                        <div class="develop-image tablet-media"></div>
+                        <!-- <img src="./assets/image/run-buddy website.png" alt="run-buddy website" /> -->
+                        <div class="project-title">
+                            <h3>Coding</h3>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <h4 class="sub-title">Skill:</h4>
+                        <p>
+                            HTML, CSS, Git, Github, VS code, atom
+                        </p>
+                        <button class="see-project">
+                        <a href="#coding-projects.html">See Projects!</a>
+                    </button>
+                    </div>
+                </div>
+
+            </div>
         </div>
         </div>
 
@@ -162,13 +188,13 @@
 
     <!-- "Contact me" section -->
     <section id="contact-me">
-        <h2 class="title">Let's Create Something Together</h2>
+        <h2 class="title headline">Let's Create Something Together</h2>
         <div class="contact-info">
 
             <div>
                 <p>
-                    ?????????
-                    <br /> Let us know and we'll be happy to talk to you!
+                    If you'd like to talk about working with me,
+                    <br /> feel free to reach out!
                 </p>
                 <address>
                     20729 Heron landing dr <br/>
@@ -193,9 +219,10 @@
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="What can I help you!"></textarea>
 
-                    <a href="mailto:n.foithong1983@gmail.com">
-                        <button type="submit">Submit!</button>
-                    </a>
+                    <!-- <a href="mailto:n.foithong1983@gmail.com">
+                    </a> -->
+                    <button type="submit">Submit!</button>
+
 
                 </form>
 
