@@ -15,6 +15,15 @@ Create portfolio to show my skill as a developer by using HTML & CSS. In my port
 - Test all links should working and meet Accessibility
 - Create animation such as link, mouse-over and screen media query
 
+## Wire-framing
+
+### Desktop screen size
+
+![Home page desktop size](https://github.com/NFoithong/Natthaphon-portfolio/blob/main/assets/image/Homepage-desktop-size.png?raw=true)
+
+### Mobile screen size
+
+![Home page mobile size](https://github.com/NFoithong/Natthaphon-portfolio/blob/main/assets/image/iPhone-13-Pro-Max-size.png?raw=true)
 
 ## License
 
