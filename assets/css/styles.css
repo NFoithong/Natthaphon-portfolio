@@ -476,6 +476,18 @@ footer {
 
 /* Media query for smaller desktop screens and smaller */
 
+@media screen and (max-width:1500px) {
+    section {
+        padding: 60px 70px;
+    }
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px 170px;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width:980px) {
     section {
         padding: 60px 35px;
