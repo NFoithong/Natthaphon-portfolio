@@ -27,6 +27,10 @@ Create portfolio to show my skill as a developer by using HTML & CSS. In my port
 
 ![Home page mobile size](https://github.com/NFoithong/Natthaphon-portfolio/blob/main/assets/image/iPhone-13-Pro-Max-size.png?raw=true)
 
+## Implement & Deploy
+https://github.com/NFoithong/Natthaphon-portfolio.git
+https://nfoithong.github.io/Natthaphon-portfolio/
+
 ## License
 
 Source for coding:
