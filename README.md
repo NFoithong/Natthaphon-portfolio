@@ -6,6 +6,8 @@ Create portfolio to show my skill as a developer by using HTML & CSS. In my port
 
 - HTML
 - CSS
+- JavaScript
+- Bootstrap
 
 ## Roadmap
 
